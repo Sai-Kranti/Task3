@@ -17,8 +17,8 @@ let news_matter_data = [
 let news_dates_data = ['24 July, 2019','19 July, 2019','14 July, 2019','29 June, 2019','09 June, 2019','24 May, 2019',
 '12 April, 2019','17 March, 2019','26 February, 2019','04 February, 2019'];
 let news_morematter_data = ['','','','','','','','','',''];
-let news_images = ['./images/saaho.jpg','./images/stemcells.jpg','./images/bjp.jpg','./images/endgame.jpg','./images/nuclear.jpg',
-'./images/congress.jpg','./images/dangal.jpg','./images/intel.jpg','./images/trump.jpg','./images/maharshi.jpg']
+let news_images = ['./saaho.jpg','./stemcells.jpg','./bjp.jpg','./endgame.jpg','./nuclear.jpg',
+'./congress.jpg','./dangal.jpg','./intel.jpg','./trump.jpg','./maharshi.jpg']
 let email_list;
 
 if (localStorage.getItem("email_list") === null) {
